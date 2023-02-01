@@ -24,16 +24,29 @@
 </head>
 
 <body>
-    <header class="d-flex justify-content-between">
-        <h1>CAMPO MINATO</h1>
-        <button id="start_button" class="px-3">Start</button>
+    <header>
+        <div class="container d-flex justify-content-between">
+            <h1>CAMPO MINATO</h1>
+            <div>
+                <label class="fw-bold" for="difficul_select">DIFFICOLTA'</label>
+                <select name="pets" id="difficul_select">
+                    <option value="">Scegliere un grado di difficoltà</option>
+                    <option value="facile">Facile</option>
+                    <option value="medio">Medio</option>
+                    <option value="difficile">Difficile</option>
+                </select>
+                <button id="start_button" class="btn btn-primary px-3">Start</button>
+            </div>
+        </div>
     </header>
 
-    <div class="container my-4">
-        <div id="grid_container" class="row">
-            
+    <main>
+        <div class="container my-4 d-flex justify-content-center">
+            <div id="grid_container" class="row">
+                
+            </div>
         </div>
-    </div>
+    </main>
 
 </body>
 
